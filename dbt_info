@@ -1,0 +1,7 @@
+Project Name=custom_postgres
+hostname = postgres
+Port = 5432
+user = postgres
+pass = secret
+default dbname = dbt_etl
+default schema name = dbt_etl_schema
