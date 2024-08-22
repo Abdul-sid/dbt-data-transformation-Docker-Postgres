@@ -43,7 +43,7 @@ Transform: Leveraged dbt to apply transformations and clean data before loading 
 │   ├── models/example                      # dbt models
 │   ├──   ├── All Models and .yml files
 ├── source_db_init
-│   ├── init.sql                            # SQL files for intermediary data storage
+│   ├── init.sql                            # SQL file for intermediary data storage
 ├── elt
 │   ├── Dockerfile                          # Dockerfile to set up ELT Script
 │   ├── elt_script.py                       # Python ELT Script
