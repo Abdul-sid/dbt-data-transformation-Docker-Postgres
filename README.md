@@ -27,7 +27,7 @@ PostgreSQL Expertise: Deepened understanding of PostgreSQL for both OLTP and OLA
 # 🚀 Project Structure
 1. Architecture
 Docker Environment: Two PostgreSQL databases (source and destination) running in separate Docker containers.
-ETL Process: The dbt tool is used to extract data from the source, load it into intermediary SQL tables, and transform the data into the destination database.
+ELT Process: The dbt tool is used to extract data from the source, load it into intermediary SQL tables, and transform the data into the destination database.
 Source DB: Raw data hosted in the first PostgreSQL container.
 Destination DB: Transformed data stored in the second PostgreSQL container.
 2. ELT Breakdown
