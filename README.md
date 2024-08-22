@@ -35,10 +35,11 @@ Extract: Pulled data from the source Postgres database.
 Load: Saved intermediary SQL tables for analysis.
 Transform: Leveraged dbt to apply transformations and clean data before loading into the destination Postgres database.
 
-# 📂 Folder Structure
+# 📂 Folder Structure (Main folders and files)
 ``` bash
-├── custom_postgres                         # Dockerfile to set up PostgreSQL databases
+├── custom_postgres                         # dbt project
 │   ├── dbt_project.yml                     # dbt project configuration
+│   ├── macros                              # macros for dbt
 │   ├── models/example                      # dbt models
 │   ├──   ├── All Models and .yml files
 ├── source_db_init
